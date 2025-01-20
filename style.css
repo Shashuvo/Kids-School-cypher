@@ -1,68 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
 
-*{
+* {
     font-family: quicksand;
-    margin:0px;
+    margin: 0px;
 }
 
-.first-color{
+.orange {
     color: #FEA301;
 }
-.second-color{
+
+.blue {
     color: #01ACFD;
 }
-.third-color{
+
+.skyblue {
     color: #05D4DF;
 }
-.fourth-color{
+
+.purple {
     color: #5D58EF;
 }
 
 /* Navbar section */
 
-.header-container{
-    margin: 1rem 6.25rem;
+.header-container {
+    margin: 1rem 5rem;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-left{
+.nav-left {
     display: flex;
     align-items: center;
 }
 
 
 
-.nav-mid > ul{
+.nav-mid>ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
     padding: 0px 20px;
 }
 
-.nav-mid li a{
+.nav-mid li a {
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
-.nav-right{
+.nav-right {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nav-right > button{
+.nav-right>button {
     background-color: #FEA301;
     border: none;
     color: white;
-    width: 12rem;
+    width: 10rem;
     height: 3.1rem;
     border-radius: 15px;
     font-size: larger;
@@ -81,4 +84,39 @@
     height: 3px;
     background-color: rgba(66, 66, 66, 1);
     border-radius: 3px;
+}
+
+/* banner-section */
+
+.banner-section{
+    margin: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-right img{
+    height: 25rem;
+    width: 25rem;
+}
+
+.banner-left > h1{
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+}
+
+.banner-left > p{
+    font-size: 1.25rem;
+}
+
+.banner-left > button{
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
