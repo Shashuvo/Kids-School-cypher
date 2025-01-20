@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    font-family: quicksand;
+    margin:0px;
+}
+
+.first-color{
+    color: #FEA301;
+}
+.second-color{
+    color: #01ACFD;
+}
+.third-color{
+    color: #05D4DF;
+}
+.fourth-color{
+    color: #5D58EF;
+}
+
+/* Navbar section */
+
+.header-container{
+    margin: 1rem 6.25rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-mid > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav-mid li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right > button{
+    background-color: #FEA301;
+    border: none;
+    color: white;
+    width: 12rem;
+    height: 3.1rem;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: medium;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: rgba(66, 66, 66, 1);
+    border-radius: 3px;
+}
