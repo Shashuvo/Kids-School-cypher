@@ -5,6 +5,7 @@
         margin: 0px;
         border: 2px solid #FEA301;
         padding: 20px 20px;
+        margin-bottom: 0.5rem;
     }
 
     .navbar {
@@ -63,6 +64,81 @@
 
     .scroll {
         display: none;
+    }
+
+    /* Our stories-section */
+    .stories-section {
+        padding: 0rem 0rem;
+    }
+
+    .stories-container .s-left {
+        display: none;
+    }
+
+    .stories-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .s-right {
+        gap: 10px;
+        margin: 1rem 1rem;
+    }
+
+    .stories-container .s-right .s2 button {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .s2 h4 {
+        padding: 0px 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+
+    #btn1 {
+        left: 20px;
+        top: 92px;
+    }
+
+    #btn2 {
+        left: 30px;
+        top: 92px;
+    }
+
+    #btn3 {
+        left: 20px;
+        top: 92px;
+    }
+
+
+    #btn4 {
+        left: 30px;
+        top: 92px;
+    }
+
+    #view-btn {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    /* footer section */
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 40px 15px;
+    }
+
+    .footer-mid {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer-mid h3 {
+        padding: 20px 0px;
     }
 
 }
