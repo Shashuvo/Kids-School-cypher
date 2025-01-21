@@ -92,31 +92,21 @@
 
     .s2 h4 {
         padding: 0px 10px;
-        padding-top: 20px;
-        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
         font-size: 10px;
     }
 
-    #btn1 {
-        left: 20px;
-        top: 92px;
+    .s2 button {
+        padding: 5px 5px;
+        height: 30px;
+        width: 110px;
+        position: relative;
+        top: -14px;
+        /* To overlap slightly on the image */
+        left: -20px;
     }
 
-    #btn2 {
-        left: 30px;
-        top: 92px;
-    }
-
-    #btn3 {
-        left: 20px;
-        top: 92px;
-    }
-
-
-    #btn4 {
-        left: 30px;
-        top: 92px;
-    }
 
     #view-btn {
         margin-top: 1rem;
