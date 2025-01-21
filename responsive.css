@@ -30,18 +30,39 @@
     .banner-section {
         display: flex;
         flex-direction: column-reverse;
-        margin: 1rem;
+        margin: 1rem 0rem;
         text-align: center;
+    }
+
+    .banner-right img {
+        width: 380px;
     }
 
     .banner-left>h1 {
         font-size: 2rem;
         margin-top: 1rem;
     }
-    .banner-left>p{
+
+    .banner-left>p {
         font-size: 0.9rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+
+    /* curriculum-section */
+
+    .curriculum-section {
+        padding: 2rem 1rem;
+    }
+
+    .curriculum-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1rem;
+    }
+
+    .scroll {
+        display: none;
     }
 
 }
